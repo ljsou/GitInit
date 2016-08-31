@@ -1,3 +1,7 @@
 function division(a, b):
-	return a / b;
+	if b != 0:
+		return a / b;
+	else
+		return "error, b is zero";
+	end
 end
